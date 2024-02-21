@@ -37,7 +37,8 @@ function Screen1() {
                                             value=""></input>
                                             <div aria-hidden="true" class="default-ltr-cache-emv211 ea3diy33"></div>
                                         </div>
-                                    </div><button role="button" class=" e1ax5wel1 ew97par0 default-ltr-cache-1js8ko8 e1ff4m3w2"
+                                    </div>
+                                    <button class=" e1ax5wel1 ew97par0 default-ltr-cache-1js8ko8 e1ff4m3w2"
                                         data-uia="nmhp-card-cta+hero_fuji" type="submit">Get Started<div aria-hidden="true"
                                             class="default-ltr-cache-17uj5h e1ax5wel0"><svg width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
