@@ -1,4 +1,4 @@
-function Header() {
+function HeaderOut() {
     return (
         <div class="default-ltr-cache-1lr0euo e1iw2qjb0">
             <header data-uia="nmhp-card-header" class=" default-ltr-cache-i6d2tb e1bzn5xj1">
@@ -6,7 +6,7 @@ function Header() {
                     <div data-layout="container" class="default-ltr-cache-1ih16e8 eslj5pt0">
                         <div data-layout="item" class=" default-ltr-cache-35cwt6 ew2l6qe0"><span
                             class="default-ltr-cache-0 ev1dnif0" data-uia="nmhp-card-header+logo"><svg viewBox="0 0 111 30"
-                                version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                                 aria-hidden="true" role="img" class="default-ltr-cache-1d568uk ev1dnif2">
                                 <g>
                                     <path
@@ -64,4 +64,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default HeaderOut;
