@@ -1,3 +1,6 @@
+import 'C:/Users/Paras/Desktop/WebAPPs/honurs_assignment/netflix/src/Css/highLightButtons.css'
+import 'C:/Users/Paras/Desktop/WebAPPs/honurs_assignment/netflix/src/Css/nmhp-reskin.css'
+import 'C:/Users/Paras/Desktop/WebAPPs/honurs_assignment/netflix/src/Css/nmhp.css'
 function Screen1() {
     return (
         <div class=" default-ltr-cache-142hwrm e9eyrqp6" data-uia="nmhp-card-hero">

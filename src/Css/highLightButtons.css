@@ -1,0 +1,75 @@
+#highlightOptions {
+    display: flex;
+    gap: 5px;
+    pointer-events: auto;
+}
+
+.highlightColor {
+    cursor: pointer;
+    transition: filter .1s, transform .1s;
+    transform-origin: center center;
+    pointer-events: all;
+    margin: 0px 1px;
+}
+
+.highlightColor:hover {
+    filter: drop-shadow(rgba(0, 0, 0, 10%) 0px 0px 2px);
+    transform: scale(1.05);
+}
+
+#textSelectedPopup {
+    z-index: 10000000000;
+    font-size: 12px;
+    padding: 6px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 25%);
+    height: min-content;
+    width: min-content;
+    position: fixed;
+    display: flex;
+    color: #76778C;
+    pointer-events: auto;
+    transform: translate(-50%, calc(-100% - 10px));
+}
+
+#textSelectedPopup:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: calc(50% - 5px);
+    width: 0;
+    border-top: 5px solid white;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.textSelectPopupOption>img {
+    width: 21px;
+    height: auto;
+}
+
+.textSelectPopupOption {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    pointer-events: auto;
+    user-select: none;
+}
+
+.textSelectPopupOption:hover {
+    background: #F4F4FA;
+}
+
+.textSelectPopupOptionText {
+    white-space: nowrap;
+    padding: 5px;
+}
+
+.highlightColor {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}

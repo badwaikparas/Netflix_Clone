@@ -1,3 +1,6 @@
+import 'C:/Users/Paras/Desktop/WebAPPs/honurs_assignment/netflix/src/Css/highLightButtons.css'
+import 'C:/Users/Paras/Desktop/WebAPPs/honurs_assignment/netflix/src/Css/nmhp-reskin.css'
+import 'C:/Users/Paras/Desktop/WebAPPs/honurs_assignment/netflix/src/Css/nmhp.css'
 function HeaderOut() {
     return (
         <div class="default-ltr-cache-1lr0euo e1iw2qjb0">
